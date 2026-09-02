@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#live-demo">Live Demo</a> •
-  <a href="#designer">Designer</a>
+  <a>Features</a> •
+  <a>Tech Stack</a> •
+  <a>Getting Started</a> •
+  <a>Live Demo</a> •
+  <a>Designer</a>
 </p>
 
 ---
@@ -71,35 +71,59 @@ bash
 npm run build
 
 
-✦ Live Demo 
-🔗 View Live Demo
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View-ff69b4?style=for-the-badge&logo=vercel)](https://luxxoraa.netlify.app/)
+## ✦ Live Demo
 
+<div align="center">
 
+<a href="https://luxxoraa.netlify.app/">
+  <img src="https://img.shields.io/badge/Live_Demo-View-ff69b4?style=for-the-badge&logo=netlify" alt="Live Demo" />
+</a>
 
-✦ Project Structure
-text
+<br/><br/>
+
+<a href="https://luxxoraa.netlify.app/">🔗 View Live Demo</a>
+
+</div>
+
+---
+
+## ✦ Project Structure
+
+```text
 luxora-watch/
 ├── public/
-│   └── images/               # all images
+│   └── images/              # All images
 ├── src/
-│   ├── components/           # reusable components
-│   ├── pages/                # full page views
-│   ├── data/                 # watch data
+│   ├── components/          # Reusable components
+│   ├── pages/               # Full page views
+│   ├── data/                # Watch data
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
 ├── index.html
 ├── package.json
 └── README.md
+```
 
+---
 
+<div align="center">
 
-✦ Designer {#designer}
-Shubham Bisht
-Built with passion for luxury horology.
+## ✦ Designer
 
-📄 License
-This project is for demonstration/portfolio purposes only. All content (text, watch names, brand story) is fictional.
+**Shubham Bisht**
 
-<p align="center"> <sub>✦ LUXORA – Time, Perfected. ✦</sub> </p>
+*Built with passion for luxury horology.*
+
+---
+
+### 📄 License
+
+This project is for demonstration/portfolio purposes only.
+All content (text, watch names, and brand story) is fictional.
+
+<br/>
+
+<sub>✦ LUXORA – Time, Perfected. ✦</sub>
+
+</div>
