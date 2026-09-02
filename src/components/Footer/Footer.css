@@ -1,0 +1,79 @@
+.footer {
+  border-top: 1px solid rgba(201, 164, 92, 0.2);
+  padding: 2rem 0;
+  background: var(--obsidian);
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer-logo {
+  font-family: var(--font-serif);
+  font-size: 1.8rem;
+  letter-spacing: 6px;
+  color: var(--warm-white);
+}
+
+.footer-tagline {
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--champagne);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.footer-links a {
+  color: var(--grey);
+  transition: color var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: var(--champagne);
+}
+
+.footer-meta {
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.footer-credit {
+  font-family: var(--font-serif);        
+  font-size: 1.5rem;                     
+  color: var(--champagne);              
+  letter-spacing: 1px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer-credit:hover {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

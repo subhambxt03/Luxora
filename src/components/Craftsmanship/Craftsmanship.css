@@ -1,0 +1,90 @@
+.craft-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.craft-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.craft-card {
+  background: #1E1E1E;                      
+  border: 1px solid rgba(201, 164, 92, 0.3);
+  padding: 2rem 1.5rem;
+  transition: all var(--transition-med);
+  position: relative;
+  text-align: center;
+  border-radius: 4px;                      
+}
+
+.craft-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(201, 164, 92, 0.6);
+  box-shadow: 0 8px 30px rgba(201, 164, 92, 0.12); 
+}
+
+.craft-number {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: var(--champagne);
+  opacity: 0.2;
+  margin-bottom: 0.5rem;
+}
+
+.craft-icon {
+  font-size: 1.4rem;
+  color: var(--champagne);
+  margin-bottom: 0.75rem;
+}
+
+.craft-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--warm-white);
+}
+
+.craft-desc {
+  font-size: 0.85rem;
+  color: var(--grey);
+  line-height: 1.6;
+}
+
+.craft-line {
+  width: 30px;
+  height: 2px;
+  background: var(--champagne);
+  margin: 1rem auto 0;
+  transition: width var(--transition-med);
+}
+
+.craft-card:hover .craft-line {
+  width: 50px;
+}
+
+@media (max-width: 1024px) {
+  .craft-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .craft-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .section-subtitle {
+    max-width: 100%;
+  }
+}

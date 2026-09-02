@@ -1,0 +1,142 @@
+.watch-card-link {
+  text-decoration: none;
+  display: block;
+}
+
+.watch-card {
+  background: var(--soft-black);
+  border: 1px solid rgba(201, 164, 92, 0.15);
+  border-radius: 4px;
+  transition: all var(--transition-med);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  transform: perspective(800px) rotateY(0) rotateX(0);
+  will-change: transform;
+  height: 100%;
+}
+
+.watch-card:hover {
+  border-color: rgba(201, 164, 92, 0.6);
+  box-shadow: 0 12px 50px rgba(201, 164, 92, 0.12);
+  transform: perspective(800px) translateY(-8px) rotateX(1deg) rotateY(1deg);
+}
+
+.card-inner {
+  padding: 2rem 2rem 2.2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-tag {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+  color: var(--champagne);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.card-image {
+  margin: 1rem 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  transition: transform var(--transition-med);
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+}
+
+.watch-card:hover .watch-img {
+  transform: scale(1.08);
+}
+
+.card-name {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--warm-white);
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: var(--grey);
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.card-price {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--champagne);
+  font-weight: 600;
+}
+
+.card-discover {
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0.4rem 1.2rem;
+  background: var(--champagne);
+  color: var(--obsidian);
+  border-radius: 40px;
+  transition: all var(--transition-fast);
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.watch-card:hover .card-discover {
+  background: var(--bright-gold);
+  transform: scale(1.06);
+  box-shadow: 0 0 30px rgba(201, 164, 92, 0.3);
+}
+
+.card-gold-line {
+  width: 40px;
+  height: 2px;
+  background: var(--champagne);
+  margin-top: 1rem;
+  transition: width var(--transition-med);
+}
+
+.watch-card:hover .card-gold-line {
+  width: 80px;
+}
+
+@media (max-width: 768px) {
+  .card-inner {
+    padding: 1.2rem;
+  }
+  .watch-img {
+    width: 80%;
+    max-height: 280px;
+  }
+  .card-name {
+    font-size: 1.1rem;
+  }
+  .card-price {
+    font-size: 1rem;
+  }
+  .card-discover {
+    font-size: 0.5rem;
+    padding: 0.3rem 0.8rem;
+  }
+}

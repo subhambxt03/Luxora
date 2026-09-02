@@ -1,0 +1,26 @@
+
+.section-glow {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;               
+  max-width: 85vw;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--champagne), transparent);
+  margin: 2rem 0;             
+  opacity: 0.5;
+  box-shadow: 0 0 30px 8px rgba(201, 164, 92, 0.12);
+  border-radius: 2px;
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    opacity: 0.4;
+    box-shadow: 0 0 30px 8px rgba(201, 164, 92, 0.1);
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 40px 12px rgba(201, 164, 92, 0.2);
+  }
+}

@@ -1,0 +1,32 @@
+.collection-header {
+  margin-bottom: 3.5rem;
+  text-align: center;               
+}
+
+.collection-header .section-title {
+  text-align: center;
+}
+
+.collection-header .section-subtitle {
+  margin-left: auto;
+  margin-right: auto;               
+  text-align: center;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .collection-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .collection-grid {
+    grid-template-columns: 1fr;
+  }
+}

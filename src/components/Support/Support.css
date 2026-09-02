@@ -1,0 +1,44 @@
+.support-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.support-card {
+  background: var(--soft-black);
+  border: 1px solid rgba(201, 164, 92, 0.1);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: var(--transition-med);
+}
+.support-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(201, 164, 92, 0.3);
+}
+.support-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+.support-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.support-card p {
+  color: var(--grey);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+.support-card .btn-dark {
+  font-size: 0.6rem;
+  padding: 0.5rem 1.2rem;
+}
+@media (max-width: 768px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+}

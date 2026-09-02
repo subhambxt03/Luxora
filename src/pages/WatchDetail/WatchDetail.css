@@ -1,0 +1,356 @@
+
+.watch-detail-page {
+  background: var(--obsidian);
+  padding: 0;
+}
+
+
+.watch-hero {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('/images/hero-watch.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  isolation: isolate;
+}
+
+.watch-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at center, rgba(0,0,0,0.3) 30%, rgba(0,0,0,0.85) 100%),
+    rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.watch-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.watch-hero-tag {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--champagne);
+  margin-bottom: 1rem;
+}
+
+.watch-hero-name {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.watch-hero-name .brand {
+  display: block;
+  color: var(--warm-white);
+}
+
+.watch-hero-name .model {
+  display: block;
+  color: var(--champagne);
+  text-shadow: 0 0 40px rgba(201, 164, 92, 0.15);
+}
+
+.watch-hero-desc {
+  font-size: 1.1rem;
+  color: var(--grey);
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  line-height: 1.8;
+}
+
+.watch-hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.reserve-btn-hero,
+.back-btn-hero {
+  border-radius: 40px !important;
+  padding: 0.8rem 2.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.back-btn-hero {
+  background: transparent;
+  border: 1px solid var(--champagne);
+  color: var(--champagne);
+}
+.back-btn-hero:hover {
+  background: var(--champagne);
+  color: var(--obsidian);
+}
+
+.watch-section {
+  padding: 5rem 0;
+  border-bottom: 1px solid rgba(201, 164, 92, 0.08);
+}
+
+.watch-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.watch-section-grid.reverse {
+  direction: rtl;
+}
+.watch-section-grid.reverse > * {
+  direction: ltr;
+}
+
+.watch-section-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.watch-section-image img {
+  width: 70%;
+  max-width: 400px;
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.6));
+  transition: transform 0.6s ease;
+}
+
+.watch-section-image:hover img {
+  transform: scale(1.08);
+}
+
+.watch-section-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.watch-section-label {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--warm-white);
+  margin-bottom: 0.5rem;
+}
+
+.watch-section-movement-name,
+.watch-section-complication-name {
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+
+
+.complications-section .watch-section-grid {
+  margin-left: 16rem;   
+}
+
+.watch-section-movement-name .movement-first,
+.watch-section-complication-name .comp-first {
+  display: block;
+  color: var(--warm-white);
+}
+
+.watch-section-movement-name .movement-second,
+.watch-section-complication-name .comp-second {
+  display: block;
+  color: var(--champagne);
+}
+
+.watch-section-desc {
+  font-size: 1rem;
+  color: var(--grey);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.watch-section-desc.second-para {
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.watch-specs-table {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.4rem 0;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(201, 164, 92, 0.08);
+  border-radius: 4px;
+  padding: 1.2rem 1.5rem;
+}
+
+.watch-specs-table.extended {
+  grid-template-columns: 1fr;
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(201, 164, 92, 0.05);
+  padding: 0.3rem 0;
+}
+
+.spec-row .spec-label {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--warm-white);
+}
+
+.spec-row .spec-value {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--champagne);
+}
+
+
+.watch-final {
+  padding: 4rem 0 5rem;
+  text-align: center;
+}
+
+.watch-final-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.limited-text {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--champagne);
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  border-top: 1px solid rgba(201, 164, 92, 0.15);
+  padding-top: 2rem;
+}
+
+.reserve-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reserve-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.reserve-heading .begin {
+  display: block;
+  color: var(--warm-white);
+}
+
+.reserve-heading .journey {
+  display: block;
+  color: var(--champagne);
+}
+
+.reserve-desc {
+  font-size: 1rem;
+  color: var(--grey);
+  max-width: 500px;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.reserve-btn-final {
+  border-radius: 40px !important;
+  padding: 0.8rem 3rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.watch-detail-not-found {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.watch-detail-not-found h2 {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: var(--warm-white);
+  margin-bottom: 1.5rem;
+}
+
+
+@media (max-width: 1024px) {
+  .watch-section-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .watch-section-grid.reverse {
+    direction: ltr;
+  }
+  .watch-section-image img {
+    width: 60%;
+  }
+  .watch-specs-table {
+    grid-template-columns: 1fr;
+  }
+  .watch-specs-table.extended {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .watch-hero {
+    min-height: 60vh;
+  }
+  .watch-hero-name {
+    font-size: clamp(2.5rem, 10vw, 3.5rem);
+  }
+  .watch-hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reserve-btn-hero,
+  .back-btn-hero {
+    width: 100%;
+    justify-content: center;
+  }
+  .complications-section .watch-section-grid {
+  margin-left: 0;   
+}
+  .watch-section {
+    padding: 3rem 0;
+  }
+  .watch-section-image img {
+    width: 70%;
+  }
+  .watch-final {
+    padding: 3rem 0;
+  }
+  .reserve-heading {
+    font-size: 2rem;
+  }
+}

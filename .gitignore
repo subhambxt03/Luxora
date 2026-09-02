@@ -1,0 +1,11 @@
+echo "node_modules
+dist
+dist-ssr
+*.local
+.env
+.vscode
+.idea
+.DS_Store
+*.log
+coverage
+.vite" > .gitignore
