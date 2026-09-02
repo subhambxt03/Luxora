@@ -52,32 +52,27 @@
 
 ---
 
-## ✦ Getting Started 
-
-### 1. Clone the repository
-```bash
+✦ Getting Started
+1. Clone the repository
 git clone https://github.com/yourusername/luxora-watch.git
 cd luxora-watch
 2. Install dependencies
-bash
 npm install
 3. Run the development server
-bash
 npm run dev
-The site will be available at http://localhost:5173.
+
+The site will be available at:
+
+http://localhost:5173
 
 4. Build for production
-bash
 npm run build
-
-
-## ✦ Live Demo
 
 <div align="center">
 
-<a href="https://luxxoraa.netlify.app/">
-  <img src="https://img.shields.io/badge/Live_Demo-View-ff69b4?style=for-the-badge&logo=netlify" alt="Live Demo" />
-</a>
+<h2>✦ Live Demo</h2>
+
+<a href="https://luxxoraa.netlify.app/"> <img src="https://img.shields.io/badge/Live_Demo-View-ff69b4?style=for-the-badge&logo=netlify" alt="Live Demo" /> </a>
 
 <br/><br/>
 
@@ -85,11 +80,7 @@ npm run build
 
 </div>
 
----
-
-## ✦ Project Structure
-
-```text
+✦ Project Structure
 luxora-watch/
 ├── public/
 │   └── images/              # All images
@@ -103,9 +94,6 @@ luxora-watch/
 ├── index.html
 ├── package.json
 └── README.md
-```
-
----
 
 <div align="center">
 
