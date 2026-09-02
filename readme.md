@@ -2,7 +2,7 @@
   <img src="public/images/hero-watch.png" alt="LUXORA Hero Watch" width="600" />
 </p>
 
-# <p align="center">✦ LUXORA ✦</p>
+<h1 align="center">✦ LUXORA ✦</h1>
 
 <p align="center">
   <strong>Swiss Luxury Watch Brand Website</strong><br/>
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#features">Features</a> •
-  <a href="#tech">Tech Stack</a> •
+  <a href="#tech-stack">Tech Stack</a> •
   <a href="#getting-started">Getting Started</a> •
   <a href="#live-demo">Live Demo</a> •
   <a href="#designer">Designer</a>
@@ -40,7 +40,7 @@
 
 ---
 
-## ✦ Tech Stack {#tech}
+## ✦ Tech Stack {#tech-stack}
 
 | Technology | Purpose |
 |------------|---------|
@@ -70,12 +70,14 @@ The site will be available at http://localhost:5173.
 bash
 npm run build
 
+
 ✦ Live Demo {#live-demo}
 🔗 View Live Demo
-(https://luxxoraa.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View-ff69b4?style=for-the-badge&logo=vercel)](https://luxxoraa.netlify.app/)
+
+
 
 ✦ Project Structure
-
 text
 luxora-watch/
 ├── public/
@@ -91,11 +93,13 @@ luxora-watch/
 ├── package.json
 └── README.md
 
+
+
 ✦ Designer {#designer}
-   Shubham Bisht
-  Built with passion for luxury horology.
+Shubham Bisht
+Built with passion for luxury horology.
 
 📄 License
 This project is for demonstration/portfolio purposes only. All content (text, watch names, brand story) is fictional.
 
-<p align="center"> <sub>✦ LUXORA – Time, Perfected. ✦</sub> </p> ```
+<p align="center"> <sub>✦ LUXORA – Time, Perfected. ✦</sub> </p>
