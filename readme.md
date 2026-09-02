@@ -25,7 +25,7 @@
 
 ---
 
-## ✦ Features {#features}
+## ✦ Features
 
 - **Premium Dark Design** – Obsidian black + champagne gold palette
 - **Cinematic Hero** – floating watch with 3D mouse‑follow effect
@@ -40,7 +40,7 @@
 
 ---
 
-## ✦ Tech Stack {#tech-stack}
+## ✦ Tech Stack 
 
 | Technology | Purpose |
 |------------|---------|
@@ -52,7 +52,7 @@
 
 ---
 
-## ✦ Getting Started {#getting-started}
+## ✦ Getting Started 
 
 ### 1. Clone the repository
 ```bash
@@ -71,7 +71,7 @@ bash
 npm run build
 
 
-✦ Live Demo {#live-demo}
+✦ Live Demo 
 🔗 View Live Demo
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View-ff69b4?style=for-the-badge&logo=vercel)](https://luxxoraa.netlify.app/)
 
