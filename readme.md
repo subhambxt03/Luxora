@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="public/images/hero-watch.png" alt="LUXORA Hero Watch" width="600" />
-</p>
-
 <h1 align="center">✦ LUXORA ✦</h1>
 
 <p align="center">
@@ -16,7 +12,9 @@
   <a>Live Demo</a> •
   <a>Designer</a>
 </p>
-
+<p align="center">
+  <img src="public/images/github.png" alt="LUXORA Hero Watch" width="600" />
+</p>
 ---
 
 ## ✦ Overview
