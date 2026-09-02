@@ -59,9 +59,6 @@
 
 <a href="https://luxxoraa.netlify.app/"> <img src="https://img.shields.io/badge/Live_Demo-View-ff69b4?style=for-the-badge&logo=netlify" alt="Live Demo" /> </a>
 
-<br/><br/>
-
-<a href="https://luxxoraa.netlify.app/">🔗 View Live Demo</a>
 
 </div>
 
