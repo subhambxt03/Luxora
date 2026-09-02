@@ -52,21 +52,6 @@
 
 ---
 
-✦ Getting Started
-1. Clone the repository
-git clone https://github.com/yourusername/luxora-watch.git
-cd luxora-watch
-2. Install dependencies
-npm install
-3. Run the development server
-npm run dev
-
-The site will be available at:
-
-http://localhost:5173
-
-4. Build for production
-npm run build
 
 <div align="center">
 
@@ -80,20 +65,6 @@ npm run build
 
 </div>
 
-✦ Project Structure
-luxora-watch/
-├── public/
-│   └── images/              # All images
-├── src/
-│   ├── components/          # Reusable components
-│   ├── pages/               # Full page views
-│   ├── data/                # Watch data
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-└── README.md
 
 <div align="center">
 
